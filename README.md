@@ -16,6 +16,8 @@ Docker status
 ```
 docker ps
 docker ps -a
+docker stop [CONTAINER ID]
+docker image rm -f [Container Image]
 ```
 Docker starring OS
 
