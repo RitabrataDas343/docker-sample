@@ -27,3 +27,9 @@ docker run -it ubuntu
 echo $0 -> home directory
 apt list && history
 ```
+
+```
+docker build -t ctf1 .
+docker run -dp 1337:22 ctf1
+ssh user@localhost -p 1337
+```
