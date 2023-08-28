@@ -28,6 +28,8 @@ echo $0 -> home directory
 apt list && history
 ```
 
+This is it.
+
 ```
 docker build -t ctf1 .
 docker run -dp 1337:22 ctf1
